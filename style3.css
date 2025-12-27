@@ -1,0 +1,65 @@
+/* Full page body background */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  height: 100vh;
+  background-image: url("FKOM.jpg"); /* Replace with your parking background */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Page title */
+h2 {
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  margin-bottom: 30px;
+}
+
+/* Login form */
+.FK_img {
+  padding: 30px;
+  background: rgba(255,255,255,0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  width: 350px;
+}
+
+/* Input fields */
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Login button */
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Footer */
+.bottom {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
